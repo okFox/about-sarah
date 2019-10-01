@@ -1,0 +1,19 @@
+body {
+    background: lightgrey;
+
+}
+
+.tower {
+
+display: flex;
+    flex-direction: column;
+
+
+}
+
+.stripmall {
+    display: flex;
+
+
+}
+
