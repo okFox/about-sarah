@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css?family=Biryani&display=swap');
+body {
+font: 'Biryani 400';
+}
+.about-me {
+
+    display: flex;
+    justify-content: space-evenly;
+    background: grey;
+}
+img {
+    width: fit-content;
+    height: fit-content;
+}
+article {
+
+    width: 300px;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+    background: rgb(109, 95, 202);
+    padding: 15px;
+    border: solid 1px black;
+    
+}
+#future {
+    display: flex;
+    background: lightcyan;
+    flex-direction: column-reverse;
+    padding: 15px;
+    border: solid 1px black;
+}
+#pet {
+    display: flex;
+    flex-direction: column;
+    background: lightgreen;
+    padding: 15px;
+    border: solid 1px black;
+}
+
