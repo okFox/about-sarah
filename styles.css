@@ -2,12 +2,28 @@
 
 body {
 font-family: 'Noto Sans TC', sans-serif;
+background: rgb(109,114,128);
+text-align-last: center;
+}
+
+footer {
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
 }
 .about-me {
 
     display: flex;
     justify-content: space-evenly;
     background: rgb(109,114,128);
+    
+}
+.lists {
+
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(109,114,128);
+    
 }
 img {
     width: fit-content;
@@ -17,8 +33,19 @@ article {
 
     width: 300px;
 }
+h3 {
+    text-align-last: center;
+}
+
+h2 {
+    text-align-last: center; 
+}
+
+
+    
 
 #history {
+    
     display: flex;
     flex-direction: column;
     background: rgb(77,61,71);
@@ -41,3 +68,23 @@ article {
     border: solid 1px black;
 }
 
+#favebooks {
+    background: rgb(185,217,190);
+    border: solid 1px black;
+    padding: 15px;
+  
+
+}
+
+#faveconcerts {
+    background: rgb(185,217,190);
+    border: solid 1px black;
+    padding: 15px;
+
+}
+
+button {
+    font-size: 40px;
+    text-shadow: 2px;  
+    background-color: antiquewhite;
+}

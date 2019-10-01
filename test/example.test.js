@@ -1,6 +1,6 @@
 // IMPORT MODULES under test here:
 // import example from '../src/example.js';
-import { isCorrect } from '../test/functions.js';
+import { isYes } from '../test/functions.js';
 const test = QUnit.test;
 
 test('isCorrect should return true if user says yes', function(assert) {
@@ -10,7 +10,7 @@ test('isCorrect should return true if user says yes', function(assert) {
 
     //Act 
     // Call the function you're testing and set the result to a const
-    const answerIsCorrect = isCorrect(userAnswer);
+    const answerIsCorrect = isYes(userAnswer);
 
     //Assert
     // Make assertions about what is expected valid result
