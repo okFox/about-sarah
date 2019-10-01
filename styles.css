@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Biryani&display=swap');
 body {
-font: 'Biryani 400';
+font-family: 'Noto Sans TC', sans-serif;
 }
 .about-me {
 
     display: flex;
     justify-content: space-evenly;
-    background: grey;
+    background: rgb(109,114,128);
 }
 img {
     width: fit-content;
@@ -21,14 +21,14 @@ article {
 #history {
     display: flex;
     flex-direction: column;
-    background: rgb(109, 95, 202);
+    background: rgb(77,61,71);
     padding: 15px;
     border: solid 1px black;
     
 }
 #future {
     display: flex;
-    background: lightcyan;
+    background: rgb(162,191,179);
     flex-direction: column-reverse;
     padding: 15px;
     border: solid 1px black;
@@ -36,7 +36,7 @@ article {
 #pet {
     display: flex;
     flex-direction: column;
-    background: lightgreen;
+    background: rgb(100,82,102);
     padding: 15px;
     border: solid 1px black;
 }

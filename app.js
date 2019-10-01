@@ -7,6 +7,10 @@ myButton.onclick = () => {
     const myConfirmation = confirm('Do you want to take my quiz?');
     console.log(myConfirmation);
 
+    const shouldProceed = confirm('Are you sure?');
+    if(!shouldProceed)
+        return;
+
     //Question 1
     const userAnswer1 = prompt('I have been to 7 continents. (yes/no)');
     const sanitizedUserAnswer1 = userAnswer1.toLocaleLowerCase().trim();
