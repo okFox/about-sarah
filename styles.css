@@ -3,11 +3,11 @@
 body {
 font-family: 'Noto Sans TC', sans-serif;
 background: rgb(109,114,128);
-text-align-last: center;
+
 }
 
 footer {
-    font-size: 10px;
+    font-size: 12px;
     font-style: italic;
     text-align: right;
 }
@@ -25,13 +25,21 @@ footer {
     background: rgb(109,114,128);
     
 }
+
+.pic {
+display: flex;
+justify-content: center;
+}
 img {
+    display: flex;
     width: fit-content;
     height: fit-content;
+    
+
 }
 article {
 
-    width: 300px;
+    width: 80%;
 }
 h3 {
     text-align-last: center;
@@ -39,6 +47,9 @@ h3 {
 
 h2 {
     text-align-last: center; 
+}
+h1 {
+    text-align: center;
 }
 
 
@@ -85,6 +96,11 @@ h2 {
 
 button {
     font-size: 40px;
-    text-shadow: 2px;  
     background-color: antiquewhite;
+    align-content: center;
+}
+
+#buttonContainer {
+ display: flex;
+justify-content: center;
 }

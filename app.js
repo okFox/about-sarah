@@ -5,12 +5,13 @@ const myButton = document.getElementById('action-button');
 myButton.onclick = () => {
     alert('welcome to my quiz');
     const myConfirmation = confirm('Do you want to take my quiz?');
-    console.log(myConfirmation);
-
+    if(!myConfirmation)
+        return;
+/*
     const shouldProceed = confirm('Are you sure?');
     if(!shouldProceed)
         return;
-
+*/
     //Question 1
     const userAnswer1 = prompt('I have been to 7 continents. (yes/no)');
     const sanitizedUserAnswer1 = userAnswer1.toLocaleLowerCase().trim();
