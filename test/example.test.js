@@ -17,10 +17,10 @@ test('isYes should return true if user says yes', function(assert) {
     
     assert.equal(answerIsCorrect, true);
 });
-test('isYes should return false if user says no', function(assert) {
+test('isYes should return false if user does not say yes', function(assert) {
     //Arrange
     // Set up your parameters and expectations
-    const userAnswer = 'no';
+    const userAnswer = 'apple';
 
     //Act 
     // Call the function you're testing and set the result to a const

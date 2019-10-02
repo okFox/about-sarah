@@ -7,7 +7,7 @@ background: rgb(109,114,128);
 }
 
 footer {
-    font-size: 10px;
+    font-size: 12px;
     font-style: italic;
     text-align: right;
 }
@@ -99,6 +99,7 @@ button {
     background-color: antiquewhite;
     align-content: center;
 }
+
 #buttonContainer {
  display: flex;
 justify-content: center;
