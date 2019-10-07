@@ -7,11 +7,7 @@ myButton.onclick = () => {
     const myConfirmation = confirm('Do you want to take my quiz?');
     if(!myConfirmation)
         return;
-/*
-    const shouldProceed = confirm('Are you sure?');
-    if(!shouldProceed)
-        return;
-*/
+
     //Question 1
     const userAnswer1 = prompt('I have been to 7 continents. (yes/no)');
     const sanitizedUserAnswer1 = userAnswer1.toLocaleLowerCase().trim();
@@ -31,9 +27,9 @@ myButton.onclick = () => {
     const userIsCorrect2 = isYes(sanitizedUserAnswer2);
 
     if(userIsCorrect2) {
-        alert('Soooooo wrong...');
-    } else {
         alert('You are good at reading!');
+    } else {
+        alert('Soooooo wrong...');
     }
 //Question Three
     const userAnswer3 = prompt('Whiskey is a Queen-Cat (yes/no)');
